@@ -1,0 +1,575 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-10-13",
+  "network": {
+    "lines": {
+      "red_line": {
+        "id": "red_line",
+        "name": "East-West Corridor",
+        "name_hi": "पूर्व-पश्चिम कॉरिडोर",
+        "color": "#EF4444",
+        "total_stations": 14,
+        "operational": true
+      },
+      "blue_line": {
+        "id": "blue_line",
+        "name": "North-South Corridor",
+        "name_hi": "उत्तर-दक्षिण कॉरिडोर",
+        "color": "#3B82F6",
+        "total_stations": 11,
+        "operational": true
+      }
+    },
+    "stations": [
+      {
+        "id": "danapur_cantonment",
+        "name_en": "Danapur Cantonment",
+        "name_hi": "दानापुर छावनी",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 1
+        },
+        "facilities": ["parking", "restroom", "atm"],
+        "accessibility": true
+      },
+      {
+        "id": "saguna_mor",
+        "name_en": "Saguna Mor",
+        "name_hi": "सगुना मोड़",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 2
+        },
+        "facilities": ["restroom", "waiting_area"],
+        "accessibility": true
+      },
+      {
+        "id": "rps_mor",
+        "name_en": "RPS Mor",
+        "name_hi": "आर पी एस मोड़",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 3
+        },
+        "facilities": ["parking", "restroom"],
+        "accessibility": true
+      },
+      {
+        "id": "patliputra",
+        "name_en": "Patliputra",
+        "name_hi": "पाटलिपुत्र",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 4
+        },
+        "facilities": ["parking", "restroom", "atm", "food_court"],
+        "accessibility": true
+      },
+      {
+        "id": "rukanpura",
+        "name_en": "Rukanpura",
+        "name_hi": "रुकनपुरा",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 5
+        },
+        "facilities": ["restroom", "waiting_area"],
+        "accessibility": true
+      },
+      {
+        "id": "raja_bazar",
+        "name_en": "Raja Bazar",
+        "name_hi": "राजा बाजार",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 6
+        },
+        "facilities": ["parking", "restroom", "atm"],
+        "accessibility": true
+      },
+      {
+        "id": "patna_zoo",
+        "name_en": "Patna Zoo",
+        "name_hi": "चिड़ियाघर",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 7
+        },
+        "facilities": ["restroom", "waiting_area"],
+        "accessibility": true
+      },
+      {
+        "id": "vikas_bhawan",
+        "name_en": "Vikas Bhawan",
+        "name_hi": "विकास भवन",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 8
+        },
+        "facilities": ["restroom", "parking"],
+        "accessibility": true
+      },
+      {
+        "id": "vidyut_bhawan",
+        "name_en": "Vidyut Bhawan",
+        "name_hi": "विद्युत भवन",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 9
+        },
+        "facilities": ["restroom", "waiting_area", "atm"],
+        "accessibility": true
+      },
+      {
+        "id": "patna_junction",
+        "name_en": "Patna Junction",
+        "name_hi": "पटना जंक्शन",
+        "line_ids": ["red_line", "blue_line"],
+        "sequence": {
+          "red_line": 10,
+          "blue_line": 1
+        },
+        "interchange": true,
+        "facilities": ["parking", "restroom", "atm", "food_court", "railway_connect"],
+        "accessibility": true
+      },
+      {
+        "id": "cnlu",
+        "name_en": "CNLU",
+        "name_hi": "सीएनएलयू",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 11
+        },
+        "facilities": ["restroom", "waiting_area"],
+        "accessibility": true
+      },
+      {
+        "id": "mithapur",
+        "name_en": "Mithapur",
+        "name_hi": "मीठापुर",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 12
+        },
+        "facilities": ["parking", "restroom", "atm"],
+        "accessibility": true
+      },
+      {
+        "id": "ramkrishan_nagar",
+        "name_en": "Ramkrishan Nagar",
+        "name_hi": "रामकृष्ण नगर",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 13
+        },
+        "facilities": ["restroom", "waiting_area"],
+        "accessibility": true
+      },
+      {
+        "id": "jaganpura",
+        "name_en": "Jaganpura",
+        "name_hi": "जगनपुरा",
+        "line_ids": ["red_line"],
+        "sequence": {
+          "red_line": 14
+        },
+        "facilities": ["restroom", "parking"],
+        "accessibility": true
+      },
+      {
+        "id": "khemnichak",
+        "name_en": "Khemnichak",
+        "name_hi": "खेमनीचक",
+        "line_ids": ["red_line", "blue_line"],
+        "sequence": {
+          "red_line": 15,
+          "blue_line": 11
+        },
+        "interchange": true,
+        "facilities": ["parking", "restroom", "atm", "food_court"],
+        "accessibility": true
+      },
+      {
+        "id": "akashvani",
+        "name_en": "Akashvani",
+        "name_hi": "आकाशवाणी",
+        "line_ids": ["blue_line"],
+        "sequence": {
+          "blue_line": 2
+        },
+        "facilities": ["restroom", "waiting_area"],
+        "accessibility": true
+      },
+      {
+        "id": "gandhi_maidan",
+        "name_en": "Gandhi Maidan",
+        "name_hi": "गांधी मैदान",
+        "line_ids": ["blue_line"],
+        "sequence": {
+          "blue_line": 3
+        },
+        "facilities": ["restroom", "parking", "atm"],
+        "accessibility": true
+      },
+      {
+        "id": "pmch",
+        "name_en": "PMCH",
+        "name_hi": "पी एम सी एच",
+        "line_ids": ["blue_line"],
+        "sequence": {
+          "blue_line": 4
+        },
+        "facilities": ["restroom", "waiting_area", "hospital_connect"],
+        "accessibility": true
+      },
+      {
+        "id": "patna_science_college",
+        "name_en": "Patna Science College",
+        "name_hi": "पटना विज्ञान महाविद्यालय",
+        "line_ids": ["blue_line"],
+        "sequence": {
+          "blue_line": 5
+        },
+        "facilities": ["restroom", "waiting_area"],
+        "accessibility": true
+      },
+      {
+        "id": "moin_ul_haq_stadium",
+        "name_en": "Moin-ul-Haq Stadium",
+        "name_hi": "मोइनुल हक स्टेडियम",
+        "line_ids": ["blue_line"],
+        "sequence": {
+          "blue_line": 6
+        },
+        "facilities": ["parking", "restroom", "waiting_area"],
+        "accessibility": true
+      },
+      {
+        "id": "rajendra_nagar",
+        "name_en": "Rajendra Nagar",
+        "name_hi": "राजेन्द्र नगर",
+        "line_ids": ["blue_line"],
+        "sequence": {
+          "blue_line": 7
+        },
+        "facilities": ["restroom", "parking"],
+        "accessibility": true
+      },
+      {
+        "id": "malahi_pakri",
+        "name_en": "Malahi Pakri",
+        "name_hi": "मलाही पकड़ी",
+        "line_ids": ["blue_line"],
+        "sequence": {
+          "blue_line": 8
+        },
+        "facilities": ["restroom", "waiting_area"],
+        "accessibility": true
+      },
+      {
+        "id": "bhootnath",
+        "name_en": "Bhootnath",
+        "name_hi": "भूतनाथ",
+        "line_ids": ["blue_line"],
+        "sequence": {
+          "blue_line": 9
+        },
+        "facilities": ["restroom", "parking"],
+        "accessibility": true
+      },
+      {
+        "id": "zero_mile",
+        "name_en": "Zero Mile",
+        "name_hi": "जीरो मील",
+        "line_ids": ["blue_line"],
+        "sequence": {
+          "blue_line": 10
+        },
+        "facilities": ["restroom", "waiting_area", "bus_connect"],
+        "accessibility": true
+      },
+      {
+        "id": "new_isbt",
+        "name_en": "New ISBT",
+        "name_hi": "आई एस बी टी",
+        "line_ids": ["blue_line"],
+        "sequence": {
+          "blue_line": 11
+        },
+        "facilities": ["parking", "restroom", "atm", "food_court", "bus_terminal"],
+        "accessibility": true
+      }
+    ],
+    "routes": [
+      {
+        "from_station": "danapur_cantonment",
+        "to_station": "saguna_mor",
+        "line_id": "red_line",
+        "travel_time_minutes": 1.27,
+        "distance_km": 0.76,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "saguna_mor",
+        "to_station": "rps_mor",
+        "line_id": "red_line",
+        "travel_time_minutes": 1.45,
+        "distance_km": 0.87,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "rps_mor",
+        "to_station": "patliputra",
+        "line_id": "red_line",
+        "travel_time_minutes": 1.29,
+        "distance_km": 0.77,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "patliputra",
+        "to_station": "rukanpura",
+        "line_id": "red_line",
+        "travel_time_minutes": 3.34,
+        "distance_km": 2.0,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "rukanpura",
+        "to_station": "raja_bazar",
+        "line_id": "red_line",
+        "travel_time_minutes": 2.74,
+        "distance_km": 1.64,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "raja_bazar",
+        "to_station": "patna_zoo",
+        "line_id": "red_line",
+        "travel_time_minutes": 2.25,
+        "distance_km": 1.35,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "patna_zoo",
+        "to_station": "vikas_bhawan",
+        "line_id": "red_line",
+        "travel_time_minutes": 2.7,
+        "distance_km": 1.62,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "vikas_bhawan",
+        "to_station": "vidyut_bhawan",
+        "line_id": "red_line",
+        "travel_time_minutes": 2.34,
+        "distance_km": 1.4,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "vidyut_bhawan",
+        "to_station": "patna_junction",
+        "line_id": "red_line",
+        "travel_time_minutes": 2.35,
+        "distance_km": 1.41,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "patna_junction",
+        "to_station": "cnlu",
+        "line_id": "red_line",
+        "travel_time_minutes": 1.6,
+        "distance_km": 1.0,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "cnlu",
+        "to_station": "mithapur",
+        "line_id": "red_line",
+        "travel_time_minutes": 2.0,
+        "distance_km": 1.23,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "mithapur",
+        "to_station": "ramkrishan_nagar",
+        "line_id": "red_line",
+        "travel_time_minutes": 1.83,
+        "distance_km": 1.1,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "ramkrishan_nagar",
+        "to_station": "jaganpura",
+        "line_id": "red_line",
+        "travel_time_minutes": 2.0,
+        "distance_km": 1.2,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "jaganpura",
+        "to_station": "khemnichak",
+        "line_id": "red_line",
+        "travel_time_minutes": 1.3,
+        "distance_km": 0.78,
+        "direction": "eastbound"
+      },
+      {
+        "from_station": "patna_junction",
+        "to_station": "akashvani",
+        "line_id": "blue_line",
+        "travel_time_minutes": 1.45,
+        "distance_km": 0.87,
+        "direction": "northbound"
+      },
+      {
+        "from_station": "akashvani",
+        "to_station": "gandhi_maidan",
+        "line_id": "blue_line",
+        "travel_time_minutes": 2.3,
+        "distance_km": 1.38,
+        "direction": "northbound"
+      },
+      {
+        "from_station": "gandhi_maidan",
+        "to_station": "pmch",
+        "line_id": "blue_line",
+        "travel_time_minutes": 2.1,
+        "distance_km": 1.25,
+        "direction": "northbound"
+      },
+      {
+        "from_station": "pmch",
+        "to_station": "patna_science_college",
+        "line_id": "blue_line",
+        "travel_time_minutes": 2.13,
+        "distance_km": 1.28,
+        "direction": "northbound"
+      },
+      {
+        "from_station": "patna_science_college",
+        "to_station": "moin_ul_haq_stadium",
+        "line_id": "blue_line",
+        "travel_time_minutes": 2.78,
+        "distance_km": 1.67,
+        "direction": "northbound"
+      },
+      {
+        "from_station": "moin_ul_haq_stadium",
+        "to_station": "rajendra_nagar",
+        "line_id": "blue_line",
+        "travel_time_minutes": 1.6,
+        "distance_km": 1.0,
+        "direction": "northbound"
+      },
+      {
+        "from_station": "rajendra_nagar",
+        "to_station": "malahi_pakri",
+        "line_id": "blue_line",
+        "travel_time_minutes": 2.26,
+        "distance_km": 1.36,
+        "direction": "northbound"
+      },
+      {
+        "from_station": "malahi_pakri",
+        "to_station": "khemnichak",
+        "line_id": "blue_line",
+        "travel_time_minutes": 2.3,
+        "distance_km": 1.38,
+        "direction": "northbound"
+      },
+      {
+        "from_station": "khemnichak",
+        "to_station": "bhootnath",
+        "line_id": "blue_line",
+        "travel_time_minutes": 2.16,
+        "distance_km": 1.3,
+        "direction": "southbound"
+      },
+      {
+        "from_station": "bhootnath",
+        "to_station": "zero_mile",
+        "line_id": "blue_line",
+        "travel_time_minutes": 2.34,
+        "distance_km": 1.4,
+        "direction": "southbound"
+      },
+      {
+        "from_station": "zero_mile",
+        "to_station": "new_isbt",
+        "line_id": "blue_line",
+        "travel_time_minutes": 2.66,
+        "distance_km": 1.6,
+        "direction": "southbound"
+      }
+    ],
+    "interchange_stations": [
+      {
+        "station_id": "patna_junction",
+        "lines": ["red_line", "blue_line"],
+        "transfer_time_minutes": 4,
+        "transfer_distance_meters": 50
+      },
+      {
+        "station_id": "khemnichak",
+        "lines": ["red_line", "blue_line"],
+        "transfer_time_minutes": 3,
+        "transfer_distance_meters": 40
+      }
+    ]
+  },
+  "fare_structure": {
+    "currency": "INR",
+    "slabs": [
+      {
+        "id": "slab_1",
+        "min_distance_km": 0,
+        "max_distance_km": 2,
+        "fare": 10
+      },
+      {
+        "id": "slab_2",
+        "min_distance_km": 2,
+        "max_distance_km": 5,
+        "fare": 20
+      },
+      {
+        "id": "slab_3",
+        "min_distance_km": 5,
+        "max_distance_km": 10,
+        "fare": 30
+      },
+      {
+        "id": "slab_4",
+        "min_distance_km": 10,
+        "max_distance_km": 15,
+        "fare": 40
+      },
+      {
+        "id": "slab_5",
+        "min_distance_km": 15,
+        "max_distance_km": 999,
+        "fare": 50
+      }
+    ]
+  },
+  "operational_hours": {
+    "weekdays": {
+      "first_train": "06:00",
+      "last_train": "22:30",
+      "peak_hours": ["08:00-10:00", "17:00-19:00"],
+      "off_peak_hours": ["10:00-17:00", "19:00-22:30"]
+    },
+    "weekends": {
+      "first_train": "06:30",
+      "last_train": "22:00",
+      "peak_hours": ["10:00-13:00", "17:00-20:00"],
+      "off_peak_hours": ["13:00-17:00", "20:00-22:00"]
+    }
+  },
+  "service_frequency": {
+    "peak_time_headway_minutes": 7,
+    "off_peak_headway_minutes": 10,
+    "late_night_headway_minutes": 15
+  }
+}
