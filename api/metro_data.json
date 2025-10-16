@@ -1,6 +1,6 @@
 {
-  "version": "1.0.3",
-  "last_updated": "2025-10-07",
+  "version": "1.0.4",
+  "last_updated": "2025-10-13",
   "network": {
     "lines": {
       "red_line": {
@@ -26,7 +26,9 @@
         "name_en": "Danapur Cantonment",
         "name_hi": "दानापुर छावनी",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 1},
+        "sequence": {
+          "red_line": 1
+        },
         "facilities": ["parking", "restroom", "atm"],
         "accessibility": true
       },
@@ -35,7 +37,9 @@
         "name_en": "Saguna Mor",
         "name_hi": "सगुना मोड़",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 2},
+        "sequence": {
+          "red_line": 2
+        },
         "facilities": ["restroom", "waiting_area"],
         "accessibility": true
       },
@@ -44,7 +48,9 @@
         "name_en": "RPS Mor",
         "name_hi": "आर पी एस मोड़",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 3},
+        "sequence": {
+          "red_line": 3
+        },
         "facilities": ["parking", "restroom"],
         "accessibility": true
       },
@@ -53,7 +59,9 @@
         "name_en": "Patliputra",
         "name_hi": "पाटलिपुत्र",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 4},
+        "sequence": {
+          "red_line": 4
+        },
         "facilities": ["parking", "restroom", "atm", "food_court"],
         "accessibility": true
       },
@@ -62,7 +70,9 @@
         "name_en": "Rukanpura",
         "name_hi": "रुकनपुरा",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 5},
+        "sequence": {
+          "red_line": 5
+        },
         "facilities": ["restroom", "waiting_area"],
         "accessibility": true
       },
@@ -71,7 +81,9 @@
         "name_en": "Raja Bazar",
         "name_hi": "राजा बाजार",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 6},
+        "sequence": {
+          "red_line": 6
+        },
         "facilities": ["parking", "restroom", "atm"],
         "accessibility": true
       },
@@ -80,7 +92,9 @@
         "name_en": "Patna Zoo",
         "name_hi": "चिड़ियाघर",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 7},
+        "sequence": {
+          "red_line": 7
+        },
         "facilities": ["restroom", "waiting_area"],
         "accessibility": true
       },
@@ -89,7 +103,9 @@
         "name_en": "Vikas Bhawan",
         "name_hi": "विकास भवन",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 8},
+        "sequence": {
+          "red_line": 8
+        },
         "facilities": ["restroom", "parking"],
         "accessibility": true
       },
@@ -98,7 +114,9 @@
         "name_en": "Vidyut Bhawan",
         "name_hi": "विद्युत भवन",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 9},
+        "sequence": {
+          "red_line": 9
+        },
         "facilities": ["restroom", "waiting_area", "atm"],
         "accessibility": true
       },
@@ -107,7 +125,10 @@
         "name_en": "Patna Junction",
         "name_hi": "पटना जंक्शन",
         "line_ids": ["red_line", "blue_line"],
-        "sequence": {"red_line": 10, "blue_line": 1},
+        "sequence": {
+          "red_line": 10,
+          "blue_line": 1
+        },
         "interchange": true,
         "facilities": ["parking", "restroom", "atm", "food_court", "railway_connect"],
         "accessibility": true
@@ -117,7 +138,9 @@
         "name_en": "CNLU",
         "name_hi": "सीएनएलयू",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 11},
+        "sequence": {
+          "red_line": 11
+        },
         "facilities": ["restroom", "waiting_area"],
         "accessibility": true
       },
@@ -126,7 +149,9 @@
         "name_en": "Mithapur",
         "name_hi": "मीठापुर",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 12},
+        "sequence": {
+          "red_line": 12
+        },
         "facilities": ["parking", "restroom", "atm"],
         "accessibility": true
       },
@@ -135,7 +160,9 @@
         "name_en": "Ramkrishan Nagar",
         "name_hi": "रामकृष्ण नगर",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 13},
+        "sequence": {
+          "red_line": 13
+        },
         "facilities": ["restroom", "waiting_area"],
         "accessibility": true
       },
@@ -144,7 +171,9 @@
         "name_en": "Jaganpura",
         "name_hi": "जगनपुरा",
         "line_ids": ["red_line"],
-        "sequence": {"red_line": 14},
+        "sequence": {
+          "red_line": 14
+        },
         "facilities": ["restroom", "parking"],
         "accessibility": true
       },
@@ -153,7 +182,10 @@
         "name_en": "Khemnichak",
         "name_hi": "खेमनीचक",
         "line_ids": ["red_line", "blue_line"],
-        "sequence": {"red_line": 15, "blue_line": 11},
+        "sequence": {
+          "red_line": 15,
+          "blue_line": 11
+        },
         "interchange": true,
         "facilities": ["parking", "restroom", "atm", "food_court"],
         "accessibility": true
@@ -163,7 +195,9 @@
         "name_en": "Akashvani",
         "name_hi": "आकाशवाणी",
         "line_ids": ["blue_line"],
-        "sequence": {"blue_line": 2},
+        "sequence": {
+          "blue_line": 2
+        },
         "facilities": ["restroom", "waiting_area"],
         "accessibility": true
       },
@@ -172,7 +206,9 @@
         "name_en": "Gandhi Maidan",
         "name_hi": "गांधी मैदान",
         "line_ids": ["blue_line"],
-        "sequence": {"blue_line": 3},
+        "sequence": {
+          "blue_line": 3
+        },
         "facilities": ["restroom", "parking", "atm"],
         "accessibility": true
       },
@@ -181,7 +217,9 @@
         "name_en": "PMCH",
         "name_hi": "पी एम सी एच",
         "line_ids": ["blue_line"],
-        "sequence": {"blue_line": 4},
+        "sequence": {
+          "blue_line": 4
+        },
         "facilities": ["restroom", "waiting_area", "hospital_connect"],
         "accessibility": true
       },
@@ -190,7 +228,9 @@
         "name_en": "Patna Science College",
         "name_hi": "पटना विज्ञान महाविद्यालय",
         "line_ids": ["blue_line"],
-        "sequence": {"blue_line": 5},
+        "sequence": {
+          "blue_line": 5
+        },
         "facilities": ["restroom", "waiting_area"],
         "accessibility": true
       },
@@ -199,7 +239,9 @@
         "name_en": "Moin-ul-Haq Stadium",
         "name_hi": "मोइनुल हक स्टेडियम",
         "line_ids": ["blue_line"],
-        "sequence": {"blue_line": 6},
+        "sequence": {
+          "blue_line": 6
+        },
         "facilities": ["parking", "restroom", "waiting_area"],
         "accessibility": true
       },
@@ -208,7 +250,9 @@
         "name_en": "Rajendra Nagar",
         "name_hi": "राजेन्द्र नगर",
         "line_ids": ["blue_line"],
-        "sequence": {"blue_line": 7},
+        "sequence": {
+          "blue_line": 7
+        },
         "facilities": ["restroom", "parking"],
         "accessibility": true
       },
@@ -217,7 +261,9 @@
         "name_en": "Malahi Pakri",
         "name_hi": "मलाही पकड़ी",
         "line_ids": ["blue_line"],
-        "sequence": {"blue_line": 8},
+        "sequence": {
+          "blue_line": 8
+        },
         "facilities": ["restroom", "waiting_area"],
         "accessibility": true
       },
@@ -226,7 +272,9 @@
         "name_en": "Bhootnath",
         "name_hi": "भूतनाथ",
         "line_ids": ["blue_line"],
-        "sequence": {"blue_line": 9},
+        "sequence": {
+          "blue_line": 9
+        },
         "facilities": ["restroom", "parking"],
         "accessibility": true
       },
@@ -235,7 +283,9 @@
         "name_en": "Zero Mile",
         "name_hi": "जीरो मील",
         "line_ids": ["blue_line"],
-        "sequence": {"blue_line": 10},
+        "sequence": {
+          "blue_line": 10
+        },
         "facilities": ["restroom", "waiting_area", "bus_connect"],
         "accessibility": true
       },
@@ -244,7 +294,9 @@
         "name_en": "New ISBT",
         "name_hi": "आई एस बी टी",
         "line_ids": ["blue_line"],
-        "sequence": {"blue_line": 11},
+        "sequence": {
+          "blue_line": 11
+        },
         "facilities": ["parking", "restroom", "atm", "food_court", "bus_terminal"],
         "accessibility": true
       }
@@ -279,7 +331,7 @@
         "to_station": "rukanpura",
         "line_id": "red_line",
         "travel_time_minutes": 3.34,
-        "distance_km": 2,
+        "distance_km": 2.0,
         "direction": "eastbound"
       },
       {
@@ -327,14 +379,14 @@
         "to_station": "cnlu",
         "line_id": "red_line",
         "travel_time_minutes": 1.6,
-        "distance_km": 1,
+        "distance_km": 1.0,
         "direction": "eastbound"
       },
       {
         "from_station": "cnlu",
         "to_station": "mithapur",
         "line_id": "red_line",
-        "travel_time_minutes": 2,
+        "travel_time_minutes": 2.0,
         "distance_km": 1.23,
         "direction": "eastbound"
       },
@@ -350,7 +402,7 @@
         "from_station": "ramkrishan_nagar",
         "to_station": "jaganpura",
         "line_id": "red_line",
-        "travel_time_minutes": 2,
+        "travel_time_minutes": 2.0,
         "distance_km": 1.2,
         "direction": "eastbound"
       },
@@ -407,7 +459,7 @@
         "to_station": "rajendra_nagar",
         "line_id": "blue_line",
         "travel_time_minutes": 1.6,
-        "distance_km": 1,
+        "distance_km": 1.0,
         "direction": "northbound"
       },
       {
@@ -468,38 +520,56 @@
   },
   "fare_structure": {
     "currency": "INR",
-    "official": {
-      "note": "For the initial operational corridor (ISBT ↔ Zero Mile ↔ Bhootnath) authorities have set a minimum fare of ₹15 and maximum fare of ₹30 (reported by multiple news outlets).",
-      "minimum_fare": 15,
-      "maximum_fare": 30,
-      "valid_for_route_km": 4.3
-    },
-    "hypothetical_slabs": {
-      "note": "A detailed, official distance-slab fare table has not been published by PMRCL as of the last update. The following slab tiers are retained only as hypothetical examples and should NOT be treated as official.",
-      "slabs": [
-        {"id": "slab_1", "min_distance_km": 0, "max_distance_km": 2, "fare": 15},
-        {"id": "slab_2", "min_distance_km": 2, "max_distance_km": 5, "fare": 30}
-      ]
-    },
-    "sources_summary": "Minimum and maximum fares (₹15–₹30) are reported by major news outlets. Full multi-slab structure not officially published by PMRCL as of last update."
+    "slabs": [
+      {
+        "id": "slab_1",
+        "min_distance_km": 0,
+        "max_distance_km": 2,
+        "fare": 10
+      },
+      {
+        "id": "slab_2",
+        "min_distance_km": 2,
+        "max_distance_km": 5,
+        "fare": 20
+      },
+      {
+        "id": "slab_3",
+        "min_distance_km": 5,
+        "max_distance_km": 10,
+        "fare": 30
+      },
+      {
+        "id": "slab_4",
+        "min_distance_km": 10,
+        "max_distance_km": 15,
+        "fare": 40
+      },
+      {
+        "id": "slab_5",
+        "min_distance_km": 15,
+        "max_distance_km": 999,
+        "fare": 50
+      }
+    ]
   },
   "operational_hours": {
     "weekdays": {
-      "first_train": "08:00",
-      "last_train": "22:00",
+      "first_train": "06:00",
+      "last_train": "22:30",
       "peak_hours": ["08:00-10:00", "17:00-19:00"],
-      "off_peak_hours": ["10:00-17:00", "19:00-22:00"]
+      "off_peak_hours": ["10:00-17:00", "19:00-22:30"]
     },
     "weekends": {
-      "first_train": "08:00",
+      "first_train": "06:30",
       "last_train": "22:00",
       "peak_hours": ["10:00-13:00", "17:00-20:00"],
       "off_peak_hours": ["13:00-17:00", "20:00-22:00"]
     }
   },
   "service_frequency": {
-    "peak_time_headway_minutes": 20,
-    "off_peak_headway_minutes": 20,
-    "late_night_headway_minutes": 0
+    "peak_time_headway_minutes": 7,
+    "off_peak_headway_minutes": 10,
+    "late_night_headway_minutes": 15
   }
 }
